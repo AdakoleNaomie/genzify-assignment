@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+.logo {
+ color: ghostwhite;
+ padding-left: 40px;
+ padding-top: 10px;
+ font-size: 1.8em;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ text-shadow: 3px 3px 3px black;
+}
+.logo:hover {
+    color: deeppink;
+}
+ a{
+    text-decoration: none;
+}
+.logo-image{
+    background-image: url(t5.webp);
+    background-size: cover;
+    background-position: 0 -1050px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    margin-top: -60px;
+    background-color: rgb(0, 0, 0,0.5);
+    background-blend-mode: soft-light;
+}
+.navbar {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 800px;
+
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 1em;
+    color: ghostwhite;
+    font-family: verdana;
+    text-shadow: 3px 3px 3px black;
+    border-right:  2px solid black;
+    padding-right: 20px;
+}
+.navbar a:hover {
+    color: deeppink;
+}
+.text-container {
+    display: block;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-top: 430px;
+    margin-left: 30px;
+    color: ghostwhite;
+}
+.txt1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:red;
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 1000ms;
+    font-size: 2em;
+    text-shadow: 3px 3px 3px black;
+}
+.txt1.show{
+    transform: translateX(0);
+    opacity: 1;
+}
+.txt2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: yellow;
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 1000ms;
+}
+.txt2.show{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.txt3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: ghostwhite;
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 1000ms;
+    font-size: 0.8em;
+}
+.txt3.show{
+    transform: translateX(0);
+    opacity: 1;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    color: ghostwhite;
+    font-size: 0.7em;
+    font-family: verdana;
+    height: 1.5em;
+    background-color: black;
+    color: ghostwhite;
+    margin-top: 50px;
+}
